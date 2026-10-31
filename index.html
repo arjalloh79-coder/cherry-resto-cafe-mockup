@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cherry Resto Café | Conakry</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .lang-en { display: none; }
+    body.en .lang-fr { display: none; }
+    body.en .lang-en { display: block; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div class="bg-amber-50 border-b border-amber-200 text-center py-2 px-4 text-sm text-amber-900">
+    <span class="lang-fr">Maquette gratuite par Al-Falah Marketing — rien n'est en ligne sous votre nom.</span>
+    <span class="lang-en">Complimentary mockup by Al-Falah Marketing — nothing is live under your name.</span>
+  </div>
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-bold text-xl">Cherry Resto Café</div>
+      <div class="flex items-center gap-3">
+        <button onclick="document.body.classList.toggle('en')" class="text-sm px-3 py-1 rounded-full border">FR / EN</button>
+        <a href="https://wa.me/224666333363" class="bg-red-600 text-white px-4 py-2 rounded-full text-sm">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+  <section class="relative h-[70vh] min-h-[480px] bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80');">
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Cherry Resto Café</h1>
+      <p class="text-lg max-w-2xl mb-6 lang-fr">Fast food, burgers, poulet, pizza, pâtisserie · Camayenne & Nongo</p>
+      <p class="text-lg max-w-2xl mb-6 lang-en">Fast food, burgers, chicken, pizza, bakery · Camayenne & Nongo</p>
+      <a href="https://wa.me/224666333363" class="bg-red-500 hover:bg-red-600 px-6 py-3 rounded-full font-medium">Commander maintenant</a>
+    </div>
+  </section>
+  <div class="bg-slate-900 text-white py-4 text-center text-sm">
+    <p>📍 Camayenne / Nongo, Conakry</p>
+    <p>📞 +224 666 33 33 63 · +224 621 00 00 67</p>
+  </div>
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10 lang-fr">Menu Populaire</h2>
+    <h2 class="text-3xl font-bold text-center mb-10 lang-en">Popular Menu</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover" alt="Burger">
+        <div class="p-5"><h3 class="font-semibold">Burgers & Poulet</h3><p class="text-sm text-slate-600 mt-2">Best in town</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover" alt="Pizza">
+        <div class="p-5"><h3 class="font-semibold">Pizza</h3><p class="text-sm text-slate-600 mt-2">Fraîche et savoureuse</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover" alt="Dessert">
+        <div class="p-5"><h3 class="font-semibold">Pâtisserie</h3><p class="text-sm text-slate-600 mt-2">Gâteaux personnalisés</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Galerie</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="bg-red-600 text-white py-16 text-center">
+    <h2 class="text-3xl font-bold mb-4">Ouvert · Livraison disponible</h2>
+    <a href="https://wa.me/224666333363" class="inline-block bg-white text-red-700 px-8 py-3 rounded-full font-semibold mt-4">WhatsApp</a>
+  </section>
+  <footer class="bg-slate-900 text-slate-300 py-10 text-sm text-center">
+    <p class="font-medium text-white">Cherry Resto Café</p>
+    <p class="mt-2">Maquette de démonstration</p>
+    <p class="text-xs opacity-70 mt-4">Créé par Al-Falah Marketing · al-falahmarketing.com · info@al-falahmarketing.com · Laurel, MD / Guinea</p>
+  </footer>
+</body>
+</html>
